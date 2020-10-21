@@ -43,7 +43,7 @@
         "boot_order": "disk,cdrom",
   
         "ssh_username": "root",
-        "ssh_password": "Flex.123",
+        "ssh_password": "Password",
   
         "CPUs": "{{user `vm-cpu-num`}}",
         "RAM": "{{user `vm-mem-size`}}",
