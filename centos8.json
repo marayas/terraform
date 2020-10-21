@@ -36,7 +36,7 @@
         "datastore": "{{user `vsphere-datastore`}}",
   
         "vm_name": "{{user `vm-name`}}",
-        "notes": "Computing Test Server",
+        "notes": "Test Server",
         "guest_os_type": "rhel7_64Guest",
         
         "boot_wait": "10s",
