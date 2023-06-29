@@ -4,12 +4,6 @@ variable "account_id" {
   description = "user data templeate post install"
 }
 
-variable "ami_id" {
-  type         = string
-  #default      = "/aws/service/ami-amazon-linux-latest/amzn2-ami-hvm-x86_64-ebs"
-  description  = "ID of AMI to use for the instance"
-}
-
 variable "aws_subnet" {
   type        = string
 #  default     = "subnet-0b2e999c5d7985825"
