@@ -10,6 +10,6 @@ terraform {
 provider "aws" {
   # Configuration options
   region = var.aws_region
-  access_key = data.vault_kv_secret_v2.terraformsecret.data.aws_terra_accesskey
-  secret_key = data.vault_kv_secret_v2.terraformsecret.data.aws_terra_secretkey
+  access_key = var.AWS_ACCESS_KEY_ID
+  secret_key = varAWS_SECRET_ACCESS_KEY
   }
