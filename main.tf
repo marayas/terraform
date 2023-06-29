@@ -33,7 +33,7 @@ resource "aws_instance" "vm1" {
   }
   }
 
-  key_name               = "aws_key"
+  #key_name               = "aws_key"
 }
 
 resource "aws_ebs_encryption_by_default" "ebs_encrypt" {
