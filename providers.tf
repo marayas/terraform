@@ -14,7 +14,7 @@ provider "aws" {
   #secret_key = var.AWS_SECRET_ACCESS_KEY
 
   assume_role {
-     role_arn = "arn:aws:iam::${var.account_id}:role/${data.vault_kv_secret_v2.terraformsecret.data.aws_account_access}"
+     role_arn = "arn:aws:iam::${var.account_id}:role/${var.aws_account_access}"
    }
   sts_region = "us-west-2"
 
