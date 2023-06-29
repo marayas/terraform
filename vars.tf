@@ -40,4 +40,13 @@ variable tag_ocsappid {
   description = "OCS tag"
 }
 
+variable AWS_ACCESS_KEY_ID {
+  type        = string
+  description = "OCS tag"
+}
+variable AWS_SECRET_ACCESS_KEY {
+  type        = string
+  description = "OCS tag"
+}
+
 
