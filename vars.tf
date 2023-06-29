@@ -41,6 +41,3 @@ variable tag_ocsappid {
 }
 
 
-}
-
-
