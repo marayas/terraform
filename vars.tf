@@ -40,4 +40,8 @@ variable tag_ocsappid {
   description = "OCS tag"
 }
 
+variable aws_account_access {
+  type        = string
+  description = "OCS tag"
+}
 
